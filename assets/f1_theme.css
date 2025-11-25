@@ -1,0 +1,61 @@
+/* ===== Carbon fiber background ===== */
+body {
+    background-image: url('https://i.imgur.com/yVaeZ9t.png');
+    background-size: 300px;
+}
+
+/* ===== Navigation tabs ===== */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2rem;
+}
+.stTabs [data-baseweb="tab"] {
+    background: #1e1e1e;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 0px;
+    font-weight: 600;
+    border-bottom: 3px solid transparent;
+}
+.stTabs [data-baseweb="tab"][aria-selected="true"] {
+    border-bottom: 4px solid #ff0000;
+}
+
+/* ===== Titles ===== */
+h1 {
+    font-weight: 900 !important;
+    color: #ff0000 !important;
+    text-transform: uppercase;
+}
+
+/* ===== Metrics (F1-style boxes) ===== */
+.metric-box {
+    padding: 15px;
+    background: #111;
+    border-left: 5px solid #ff0000;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.metric-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.metric-label {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+/* ===== Telemetry highlight ===== */
+.slow-sector {
+    background-color: rgba(255, 0, 0, 0.3);
+    color: #fff;
+    font-weight: bold;
+}
+
+.fast-sector {
+    background-color: rgba(0, 255, 0, 0.3);
+    color: #000;
+    font-weight: bold;
+}
