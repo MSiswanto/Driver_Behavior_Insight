@@ -4,3 +4,6 @@ plotly
 scikit-learn
 python-dotenv
 groq
+plotly.express
+plotly.graph_objects
+matplotlib
